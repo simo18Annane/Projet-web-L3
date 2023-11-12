@@ -1,0 +1,316 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+a:link, a:visited
+{
+    cursor: pointer;
+    color: var(--text);
+    text-decoration-line: none;
+}
+
+.container-formulaires
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% auto;
+    align-items: center;
+}
+
+.container-formulaires .container-left, .container-formulaires .container-right
+{
+    height: 100%;
+}
+
+.container-formulaires .container-left
+{
+    color: var(--text-white);
+    background-color: var(--sign-up-in-backgroud-black);
+}
+
+.container-left .container-logo
+{
+    height: 20%;
+    padding: 30px 30px;
+}
+
+.container-logo .logo
+{
+    font-family: var(--logo-font);
+    font-weight: var(--ultra-bold);
+    font-size: 38px;
+}
+
+.container-content-parent
+{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content-child .container-title-connexion h1
+{
+    font-family: var(--logo-font);
+    font-weight: var(--ultra-bold);
+    font-size: 60px;
+}
+
+.container-content-child .container-text-connexion p
+{
+    padding-top: 20px;
+    font-family: var(--logo-font);
+    font-weight: var(--bold);
+    font-size: 24px;
+}
+
+.container-content-child .container-title-inscription h1
+{
+    display: none;
+    font-family: var(--logo-font);
+    font-weight: var(--ultra-bold);
+    font-size: 60px;
+}
+
+.container-content-child .container-text-inscription p
+{
+    display: none;
+    padding-top: 20px;
+    font-family: var(--logo-font);
+    font-weight: var(--bold);
+    font-size: 24px;
+}
+
+.container-formulaires .container-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-black);
+    background-color: var(--sign-up-in-backgroud-white);
+}
+
+.container-right .container-connexion
+{
+    /* display: none; */
+    width: 75%;
+}
+
+.container-right .container-title-2
+{
+    margin-bottom: 20px;
+}
+
+.container-right .container-title-2 h1
+{
+    font-family: var(--logo-font);
+    font-weight: var(--bolder);
+    font-size: 32px;
+}
+
+.container-right .container-form-1
+{
+    font-family: var(--logo-font);
+    font-size: 20px;
+}
+
+.container-form-1 form, .container-form-1  label, .container-form-1 input
+{
+    width: 100%;
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.container-form-1 .email-input-cnx , .container-form-1 .pwd-input
+{
+    height: 40px;
+    font-size: 16px;
+    border-bottom: solid 1px var(--button-border);
+}
+
+.container-form-1 .email-input-cnx:focus , .container-form-1 .pwd-input:focus
+{
+    border-bottom: solid 1px var(--button-bottom-border);
+}
+
+.alert-message-1 .message-cnx-1
+{
+    display: none;
+    color: var(--text-red);
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.alert-message-2 .message-cnx-2
+{
+    display: none;
+    color: var(--text-red);
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.alert-message-3 .message-cnx-3
+{
+    display: none;
+    color: var(--text-red);
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.alert-message-4 .message-cnx-4
+{
+    display: none;
+    color: var(--text-red);
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.alert-message-5 .message-cnx-5
+{
+    display: none;
+    color: var(--text-red);
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.alert-message-6 .message-cnx-6
+{
+    display: none;
+    color: var(--text-red);
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.alert-message-7 .message-cnx-7
+{
+    display: none;
+    color: var(--text-red);
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.container-form-1 .button-input-1
+{
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    padding: 10px 0;
+    font-family: var(--general-font);
+    font-size: 14px;
+    font-weight: var(--bolder);
+    color: var(--text-white);
+    background-color: var(--background-button-black);
+    border: solid 1px var(--button-border);
+    box-shadow: var(--overall-background) -4px 4px 0 0, var(--button-border) -4px 4px 1px;
+}
+
+.container-form-1 .button-input-1:hover
+{
+    color: var(--text-black);
+    background-color: var(--buttons-hover);
+}
+
+.container-right .container-redirection-inscription p
+{
+    font-family: var(--logo-font);
+    font-weight: var(--bold);
+    font-size: 16px;
+}
+
+.container-redirection-inscription .redirection-click-inscription
+{
+    cursor: pointer;
+    color: var(--text-purple);
+    text-decoration: underline;
+}
+
+.container-right .container-inscription
+{
+    display: none;
+    width: 75%;
+}
+
+.container-right .container-form-2
+{
+    font-family: var(--logo-font);
+    font-size: 20px;
+}
+
+.container-form-2 form,.container-form-2  label, .container-form-2 input
+{
+    width: 100%;
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.container-form-2 .nom-input, .container-form-2 .prenom-input, .container-form-2 .email-input-ins , .container-form-2 .pwd-input-1, .container-form-2 .pwd-input-2
+{
+    height: 40px;
+    font-size: 16px;
+    border-bottom: solid 1px var(--button-border);
+}
+
+.container-form-2 .nom-input:focus, .container-form-2 .prenom-input:focus, .container-form-2 .email-input-ins:focus , .container-form-2 .pwd-input-1:focus, .container-form-2 .pwd-input-2:focus
+{
+    border-bottom: solid 1px var(--button-bottom-border);
+}
+
+.container-form-2 .button-input-2
+{
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    padding: 10px 0;
+    font-family: var(--general-font);
+    font-size: 14px;
+    font-weight: var(--bolder);
+    color: var(--text-white);
+    background-color: var(--background-button-black);
+    border: solid 1px var(--button-border);
+    box-shadow: var(--overall-background) -4px 4px 0 0, var(--button-border) -4px 4px 1px;
+}
+
+.container-form-2 .button-input-2:hover
+{
+    color: var(--text-black);
+    background-color: var(--buttons-hover);
+}
+
+.container-right .container-redirection-connexion p
+{
+    font-family: var(--logo-font);
+    font-weight: var(--bold);
+    font-size: 16px;
+}
+
+.container-redirection-connexion .redirection-click-connexion
+{
+    cursor: pointer;
+    color: var(--text-purple);
+    text-decoration: underline;
+}

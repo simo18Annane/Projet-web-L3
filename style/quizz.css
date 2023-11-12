@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+a:link, a:visited
+{
+    cursor: pointer;
+    color: var(--text);
+    text-decoration-line: none;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+}
+
+.container-center
+{
+    width: 75%;
+    min-height: 70vh;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.container-center .container-titre
+{
+    align-items: center;
+}
+
+.container-titre
+{
+    height: 50px;
+}
+
+.container-titre .titre
+{
+    font-family: var(--general-font);
+    font-weight: var(--ultra-bold);
+    font-size: 34px;
+}

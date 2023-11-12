@@ -1,0 +1,324 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+a:link, a:visited
+{
+    cursor: pointer;
+    color: var(--text);
+    text-decoration-line: none;
+}
+
+.container
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    font-family: var(--general-font);
+}
+
+.container-center-1
+{
+    width: 75%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-center-1 .container-center-left, .container-center .container-center-right
+{
+    align-items: center;
+}
+
+.container-center-1 .container-center-left
+{
+    width: 55%;
+    justify-content: flex-start;
+}
+
+.container-center-left .presentation-big
+{
+    padding-top: 16px;
+    font-weight: var(--ultra-bold);
+    font-size: 56px;
+    overflow: hidden;
+}
+
+.container-center-left .presentation-small
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.container-center-left .get-started
+{
+    height: 40px;
+    width: 100px;
+    padding: 8px 30px;
+    font-size: 14px;
+    background-color: var(--background-button-white);
+    border: solid 1px var(--background-button-black);
+    box-shadow: var(--buttons-shadow) -4px 4px 0 0, var(--button-border) -4px 4px 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-center-left .get-started:hover
+{
+    color: var(--text-white);
+}
+
+.container-center-1 .container-center-right
+{
+    justify-content: flex-end;
+}
+
+.container-center-right .image-landing
+{
+    height: 110%;
+    width: 110%;
+    margin: 0 auto;
+    padding-right: 40px;
+}
+
+.container-center-2
+{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-center-2 .fresh-graduates, .container-center-2 .years-of-experience, .container-center-2 .excellence-awards, .container-center-2 .brand-partners
+{
+    align-items: center;
+}
+
+.number
+{
+    font-weight: var(--ultra-bold);
+    font-size: 36px;
+}
+
+.number-description
+{
+    color: var(--text-grey);
+    font-size: 14px;
+}
+
+.container-center-3
+{   
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+    align-items: center;
+}
+
+.container-center-3 .container-center-3-title, .container-center-3 .courses-display, .container-center-3 .explore-more
+{
+    align-items: center;
+}
+
+.container-center-3 .container-center-3-title
+{
+    height: 25%;
+}
+
+.container-center-3-title .title-people-learning
+{
+    font-weight: var(--ultra-bold);
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container-center-3 .courses-display
+{
+    margin: 0 auto;
+    margin-top: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses-display a
+{
+    width: 100%;
+    height: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 8px;
+}
+
+.course-image
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 12px;
+}
+
+.course-title
+{
+    font-weight: var(--ultra-bold);
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.rating-and-price
+{
+    height: 10%;
+    width: 100%;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-and-price .rating, .rating-and-price .price
+{
+    align-items: center;
+}
+
+.rating-and-price .rating
+{
+    justify-content: flex-start;
+}
+
+.rating
+{
+    font-weight: var(--ultra-bold);
+    font-size: 15px;
+}
+
+.rating i
+{
+    color: var(--star);
+    font-size: 14px;
+}
+
+.rating-and-price .price
+{
+    justify-content: flex-end;
+}
+
+.price
+{
+    font-weight: var(--ultra-bold);
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+.container-center-3 .explore-more
+{
+    margin: 0 auto;
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.explore-more .explore-more-button
+{
+    margin: 0 auto;
+    padding: 8px 30px;
+    font-size: 14px;
+    background-color: var(--background-button-white);
+    border: solid 1px var(--background-button-black);
+    box-shadow: var(--buttons-shadow) -4px 4px 0 0, var(--button-border) -4px 4px 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+.explore-more .explore-more-button:hover
+{
+    color: var(--text-white);
+}
+
+.container-center-4
+{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: block;
+}
+
+.container-center-4 .top-categories, .container-center-4 .categories
+{
+    align-items: center;
+}
+
+.top-categories .top-categories-title
+{
+    font-weight: var(--ultra-bold);
+    font-size: 36px;
+    text-align: center;
+}
+
+.container-center-4 .categories
+{
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories a
+{
+    width: 25%;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.development, .languages, .design, .health
+{   
+    width: 100%;
+    padding: 36px 0;
+    font-weight: var(--ultra-bold);
+    font-size: 16px;
+}
+
+.development
+{   
+    background-color: var(--dev-category);
+}
+
+.languages
+{
+    background-color: var(--languages-category);
+}
+
+.design
+{
+    background-color: var(--design-category);
+}
+
+.health
+{
+    background-color: var(--health-category);
+}

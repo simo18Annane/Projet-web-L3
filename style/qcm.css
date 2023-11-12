@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+a:link, a:visited
+{
+    cursor: pointer;
+    color: var(--text);
+    text-decoration-line: none;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+}
+
+.container-center
+{
+    width: 75%;
+    min-height: 70vh;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form-qcm .titre-qcm
+{
+    font-family: var(--general-font);
+    font-weight: var(--ultra-bold);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-qcm 
+{
+    font-family: var(--general-font);
+}
+
+.question
+{
+    margin-bottom: 15px;
+    display: block;
+}
+
+.reponse
+{
+    display: block;
+}
+
+.titre-quest
+{
+    font-size: 16px;
+    font-family: var(--general-font);
+    font-weight: var(--ultra-bold);
+}
+
+.form-qcm .button-qcm
+{
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 30px;
+    font-family: var(--general-font);
+    font-size: 14px;
+    box-shadow: var(--buttons-shadow) -4px 4px 0 0, var(--button-border) -4px 4px 1px;
+    text-align: center;
+    justify-content: center;
+}

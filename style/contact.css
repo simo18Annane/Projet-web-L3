@@ -1,0 +1,178 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a:link, a:visited
+{
+    cursor: pointer;
+    color: var(--text);
+    text-decoration-line: none;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+}
+
+.container .container-center-contact
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-center-contact .container-center-child
+{
+    margin: 0 auto;
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.container-contact-us .contact-us-title
+{
+    font-family: var(--general-font);
+    font-size: 36px;
+    font-weight: var(--ultra-bold);
+}
+
+.container-contact-form form, .container-contact-form input
+{
+    width: 100%;
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-contact-form form
+{
+    padding: 20px;
+}
+
+.contact-form .container-name-mail
+{
+    display: flex;
+}
+
+.container-name-mail .container-name
+{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.container-name-mail .container-mail
+{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.container-name .name-label
+{
+    font-family: var(--general-font);
+    font-size: 14px;
+}
+
+.container-name .name-input
+{
+    font-family: var(--general-font);
+    font-size: 14px;
+    height: 40px;
+}
+
+.container-mail .email-label
+{
+    font-family: var(--general-font);
+    font-size: 14px;
+}
+
+.container-mail .email-input
+{
+    font-family: var(--general-font);
+    font-size: 14px;
+    height: 40px;
+}
+
+.container-subject .subject-label
+{
+    font-family: var(--general-font);
+    font-size: 14px;
+}
+
+.container-subject .subject-input
+{
+    font-family: var(--general-font);
+    font-size: 14px;
+    height: 40px;
+}
+
+.container-message .message-label
+{
+    font-family: var(--general-font);
+    font-size: 14px;
+}
+
+.container-message .message-input
+{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: var(--general-font);
+    font-size: 14px;
+}
+
+.container-send .send-input
+{
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    font-family: var(--general-font);
+    font-size: 14px;
+}
+
+.alerte-nom .message-nom
+{
+    display: none;
+    padding-bottom: 5px;
+    font-family: var(--general-font);
+    font-size: 14px;
+    color: var(--text-red);
+}
+
+.alerte-email .message-email
+{
+    display: none;
+    padding-bottom: 5px;
+    font-family: var(--general-font);
+    font-size: 14px;
+    color: var(--text-red);
+}
+
+.alerte-subject .message-subject
+{
+    display: none;
+    padding-bottom: 5px;
+    font-family: var(--general-font);
+    font-size: 14px;
+    color: var(--text-red);
+}
+
+.alerte-msg .message-msg
+{
+    display: none;
+    padding-top: 10px;
+    font-family: var(--general-font);
+    font-size: 14px;
+    color: var(--text-red);
+}

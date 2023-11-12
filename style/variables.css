@@ -1,0 +1,59 @@
+:root
+{
+    /*Colors*/
+    --overall-background : hsl(27, 39%, 95%);
+    --overall-background-dark : hsl(0, 0%, 20%);
+    --sign-up-in-backgroud-black : hsl(0, 0%, 0%);
+    --sign-up-in-backgroud-white : hsl(0, 0%, 100%);
+    --course-background : hsl(0, 0%, 100%);
+    --course-background-dark : hsl(0, 0%, 27%);
+    --background-contact : hsl(0, 0%, 100%);
+    --background-contact-dark : hsl(0, 0%, 27%);
+    --background-button-black : hsl(0, 0%, 0%);
+    --background-button-white : hsl(0, 0%, 100%);
+    --background-button-white-hover : hsl(0, 0%, 95%);
+    --background-button-dark : hsl(0, 0%, 27%);
+    --background-icon-white : hsl(27, 39%, 95%);
+    --background-icon-black : hsl(0, 0%, 0%);
+    --buttons-shadow : hsl(243, 86%, 86%);
+    --buttons-hover : hsl(243, 86%, 86%);
+    --button-border : hsl(0, 0%, 0%);
+    --button-border-white : hsl(0, 0%, 100%);
+    --button-bottom-border : hsl(243, 86%, 86%);
+    --course-border : hsl(0, 0%, 0%);
+    --course-border-white : hsl(0, 0%, 100%);
+    --contact-border : hsl(0, 0%, 0%);
+    --contact-border-white : hsl(0, 0%, 100%);
+    --category-border : hsl(0, 0%, 0%);
+    --category-border-white : hsl(0, 0%, 100%);
+    --hr-border : hsl(0, 0%, 87%);
+    --hr-border-dark : hsl(0, 0%, 55%);
+    --hr-border-thiner : hsl(0, 0%, 90%);
+    --hr-border-thiner-dark : hsl(0, 0%, 60%);
+    --dev-category : hsl(38, 100%, 90%);
+    --languages-category : hsl(85, 40%, 91%);
+    --design-category : hsl(243, 100%, 96%);
+    --health-category : hsl(354, 72%, 94%);
+    --footer : hsl(27, 22%, 92%);
+    --footer-dark : hsl(0, 0%, 27%);
+    --background-beta : hsl(0, 0%, 100%);
+    --text-white : hsl(0, 0%, 100%);
+    --text-black : hsl(0, 0%, 0%);
+    --text-grey : hsl(0, 0%, 40%);
+    --text-dark : hsl(0, 0%, 20%);
+    --text-grey-lighter : hsl(0, 0%, 65%);
+    --text-red : hsl(0, 100%, 50%);
+    --text-purple : hsl(243, 86%, 86%);
+    --icon-color : hsl(27, 39%, 95%);
+    --icon-color-dark : hsl(0, 0%, 27%);
+    --star : hsl(50, 96%, 71%);
+
+    /*Fonts*/
+    --logo-font : "DM Sans";
+    --general-font : "DM Sans";
+
+    /*Font weight*/
+    --bold : 400;
+    --bolder : 500;
+    --ultra-bold : 800;
+}

@@ -1,0 +1,331 @@
+body
+{
+    background-color: var(--overall-background);
+    color: var(--text-black);
+}
+
+a:link, a:visited
+{
+    color: var(--text-black);
+}
+
+.container
+{
+    background-color: var(--overall-background);
+    color: var(--text-black);
+}
+
+.container-header
+{
+    background-color: var(--overall-background);
+}
+
+.container-menu .dropbtn
+{
+    color: var(--text-black);
+}
+
+.container-menu-1 .dropbtn-1
+{
+    color: var(--text-black);
+}
+
+.container-sign-in .sign-in
+{
+    color: var(--text-white);
+    background-color: var(--background-button-black);
+    box-shadow: var(--overall-background) -4px 4px 0 0, var(--button-border) -4px 4px 1px;
+}
+
+.container-sign-up .sign-up
+{
+    color: var(--text-white);
+    background-color: var(--background-button-black);
+    box-shadow: var(--overall-background) -4px 4px 0 0, var(--button-border) -4px 4px 1px;
+}
+
+.container-sign-in .sign-in:hover
+{
+    color: var(--text-black);
+}
+
+.container-sign-up .sign-up:hover
+{
+    color: var(--text-black);
+}
+
+.container-sign-out .sign-out:hover
+{
+    color: var(--text-black);
+}
+
+.container-menu .dropdown-content a
+{
+    color: var(--text-black);
+}
+
+.container-menu-1 .dropdown-content-1 a
+{
+    color: var(--text-black);
+}
+
+.container-forum .forum
+{
+    color: var(--text-grey);
+}
+
+.container-settings .settings, .container-contact-us .contact-us
+{
+    color: var(--text-grey);
+}
+
+.container-contact-us .contact-us
+{
+    color: var(--text-grey);
+}
+
+.container-header
+{
+    border-bottom: solid 1px var(--hr-border);
+}
+
+.container-header-1
+{
+    border-bottom: solid 1px var(--hr-border);
+}
+
+.user-avatar
+{
+    border-color: var(--background-button-black); 
+}
+
+.container .container-center
+{
+    color: var(--text-black);
+}
+
+.container-center-left .presentation-small
+{
+    color: var(--text-grey);
+}
+
+.container-center-left .get-started
+{
+    color: var(--text-black);
+}
+
+.explore-more .explore-more-button
+{
+    color: var(--text-black);
+}
+
+.container-center-left .get-started:hover
+{
+    background-color: var(--background-button-black);
+    border: solid 1px var(--background-button-white);
+}
+
+.explore-more .explore-more-button:hover
+{
+    background-color: var(--background-button-black);
+    border: solid 1px var(--background-button-white);
+}
+
+.courses-display a
+{
+    background-color: var(--course-background);
+    border: solid 1px var(--course-border);
+}
+
+.categories a
+{
+    border: solid 1px var(--category-border);
+}
+
+.development
+{
+    color: var(--text-black);
+}
+
+.languages
+{
+    color: var(--text-black);
+}
+
+.design
+{
+    color: var(--text-black);
+}
+
+.health
+{
+    color: var(--text-black);
+}
+
+.container .container-center-contact
+{
+    background-color: var(--background-contact);
+    border: solid 2px var(--contact-border);
+    color: var(--text-black);
+}
+
+.container-contact-us .contact-us-title
+{
+    color: var(--text-black);
+}
+
+.container-contact-form input
+{
+    color: var(--text-black);
+    background-color: var(--background-contact-white);
+}
+
+.container-contact-form textarea
+{   
+    color: var(--text-black);
+    background-color: var(--background-contact-white);
+    border: var(--contact-border);
+}
+
+.container-name .name-input
+{
+    border: solid 2px var(--button-border);
+}
+
+.container-mail .email-input
+{
+    border: solid 2px var(--button-border);
+}
+
+.container-subject .subject-input
+{
+    border: solid 2px var(--button-border);
+}
+
+.container-message .message-input
+{
+    border: solid 2px var(--button-border);
+}
+
+.container-send .send-input
+{
+    background-color: var(--background-button-black);
+    color: var(--text-white)
+}
+
+.form-qcm .button-qcm:hover
+{
+    background-color: var(--background-button-white);
+}
+
+.container-settings .inner-settings
+{
+    color: var(--text-black);
+}
+
+.dark-mode-switch
+{
+    color: var(--text-grey);
+}
+
+.toggle-switch 
+{
+    background-color: var(--background-button-dark);
+}
+
+.toggle-switch:before 
+{
+    background-color: var(--background-button-white);
+}
+
+.wrapper 
+{
+    background-color: var(--overall-background);
+}
+
+.contenu-cours
+{
+    background-color: var(--course-background);
+    border: solid 2px var(--course-border);
+}
+
+.container-button .button-obtenir
+{
+    color: var(--text-black);
+}
+
+.container-button .button-obtenir:hover
+{
+    background-color: var(--background-button-black);
+    border: solid 1px var(--background-button-white);
+    color: var(--text-white);
+}
+
+.sidebar 
+{
+    border-right: 1px solid var(--hr-border-thiner);
+}
+
+.liste
+{
+    color: var(--text-black); 
+}
+
+.liste:hover 
+{
+    color: var(--text-white);
+    background-color: var(--background-button-black);
+}
+
+.main-content 
+{
+    color: var(--background-contact); 
+}
+
+.messages 
+{
+    background-color: var(--background-contact);
+    color: var(--text-black);
+    border: 2px solid var(--contact-border);
+}
+
+.Msg_envoie 
+{
+    background-color: var(--background-button-white); 
+    color: var(--text-black);
+}
+
+.Bouton_envoie
+{
+    background-color: var(--background-button-black); 
+    color: var(--text-white);
+}
+
+.form-qcm .button-qcm
+{
+    background-color: var(--background-button-white);
+    border: 1px solid  var(--button-border);
+}
+
+.form-qcm .button-qcm:hover
+{
+    background-color: var(--background-button-black);
+    color: var(--text-white);
+}
+
+.container-footer
+{
+    background-color: var(--footer);
+}
+
+.container-footer-1 .footer-socials i
+{
+    color: var(--icon-color);
+    background-color: var(--background-icon-black);
+}
+
+.container-footer-3 .button-input
+{
+    color: var(--text-white);
+    background-color: var(--background-button-black);
+}

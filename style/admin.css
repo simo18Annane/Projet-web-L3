@@ -1,0 +1,80 @@
+body {
+    font-family: var(--general-font);
+    background-color: var(--overall-background);
+    color: var(--text-black);
+}
+
+a:link, a:visited
+{
+    cursor: pointer;
+    color: var(--text-white);
+    text-decoration-line: none;
+}
+
+h1 {
+    font-weight: var(--bold);
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--text-grey);
+}
+
+label {
+    font-weight: var(--bold);
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="submit"], button {
+    background-color: var(--background-button-black);
+    color: var(--text-white);
+    border: none;
+    padding: 20px 20px;
+    font-weight: var(--bold);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+    
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: var(--background-button-dark);
+}
+
+#form-container {
+    margin-bottom: 30px;
+}
+
+#form1-container, #formulaireContainer, #formulaireContainer3,#Pdf,#utilisateur,#Creer_Qcm,#add_modif {
+    display: none;
+}
+
+.cours, .video {
+    margin-bottom: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-out-b {
+    display: inline-block;
+    background-color: hsl(0, 0%, 0%);
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    text-decoration: none;
+}
+

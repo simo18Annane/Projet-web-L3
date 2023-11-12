@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+a:link, a:visited
+{
+    cursor: pointer;
+    color: var(--text);
+    text-decoration-line: none;
+}
+
+.container-center
+{
+    font-family: var(--general-font);
+    width: 75%;
+    min-height: 70vh;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.container-center .container-titre, .container-center .container-cours
+{
+    align-items: center;
+}
+
+.container-titre
+{
+    padding-bottom: 20px;
+}
+
+.container-titre .titre
+{
+    font-weight: var(--ultra-bold);
+    font-size: 34px;
+}
+
+.contenu-cours
+{
+    background-color: var(--course-background);
+    border: solid 2px var(--course-border);
+    padding: 20px;
+}
+
+.container-image
+{
+    display: flex;
+}
+
+.container-image .image-cours
+{   
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-description
+{       
+    padding-top: 20px;
+}
+
+.container-description .titre-description
+{
+    font-weight: var(--ultra-bold);
+    font-size: 24px;
+}
+
+.container-description .description-cours
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-description .categorie-cours, .container-description .note-cours, .container-description .niveau-cours
+{
+    padding-bottom: 10px;
+}
+
+.container-description .note-cours i
+{
+    padding-left: 4px;
+    color: var(--star);
+    font-size: 14px;
+}
+
+.container-button
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.container-button .button-obtenir
+{  
+    height: 40px;
+    width: 170px;
+    padding: 8px 30px;
+    font-size: 14px;
+    background-color: var(--background-button-white);
+    border: solid 1px var(--background-button-black);
+    box-shadow: var(--buttons-shadow) -4px 4px 0 0, var(--button-border) -4px 4px 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-button .button-obtenir
+{ 
+    color: var(--text-white);
+}

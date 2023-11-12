@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resultats>
+  <titre>Résultats du QCM : </titre>
+  <score>
+    Votre score est de %SCORE% sur %NB_QUESTIONS%,&#10;
+  </score>
+  <niveau>
+    votre niveau est : %NIVEAU%&#10;
+  </niveau>
+</resultats>

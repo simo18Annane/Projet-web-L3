@@ -1,0 +1,131 @@
+a:link, a:visited
+{
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.container-footer
+{
+    font-family: var(--logo-font);
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+
+.container-footer .container-footer-1, .container-footer .container-footer-2, .container-footer .container-footer-3
+{
+    width: 33.33%;
+    height: 100%;
+}
+
+.container-footer .container-footer-1
+{
+    width: 15%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.container-footer-1 .footer-logo, .container-footer-1 .footer-phone, .container-footer-1 .footer-mail, .container-footer-1 .footer-socials
+{
+    margin-top: 10px;
+}
+
+.container-footer-1 .footer-logo
+{
+    font-family: var(--logo-font);
+    font-weight: var(--ultra-bold);
+    font-size: 38px;
+    margin-top: 30px;
+}
+
+.container-footer-1 .footer-phone, .container-footer-1 .footer-mail
+{
+    font-family: var(--general-font);
+    font-size: 16px;
+}
+
+.container-footer-1 .footer-socials i
+{
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.container-footer .container-footer-2
+{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer-2 .container-footer-2-1 p
+{
+    font-family: var(--general-font);
+    font-size: 16px;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+.container-footer-2 .container-footer-2-2 p
+{
+    font-family: var(--general-font);
+    font-size: 16px;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+.container-footer-2 .container-footer-2-3 p
+{
+    font-family: var(--general-font);
+    font-size: 16px;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+.container-footer .container-footer-3
+{
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+
+.container-footer-3 .container-footer-3-title
+{
+    font-family: var(--general-font);
+    font-weight: var(--ultra-bold);
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.container-footer-3 .email-input
+{
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    font-family: var(--general-font);
+    font-size: 14px;
+    border: solid 1px var(--background-button-black);
+}
+
+.container-footer-3 .email-added
+{
+    display: none;
+    font-size: 14px;
+    font-weight: var(--bold);
+    padding-top: 12px;
+}
+
+.container-footer-3 .button-input
+{
+    cursor: pointer;
+    height: 40px;
+    width: 35%;
+    margin-top: 10px;
+    font-family: var(--general-font);
+    font-size: 14px;
+}

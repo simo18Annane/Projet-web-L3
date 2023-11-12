@@ -1,0 +1,332 @@
+body
+{
+    background-color: var(--overall-background-dark);
+    color: var(--text-white);
+}
+
+a:link, a:visited
+{
+    color: var(--text-white);
+}
+
+.container
+{
+    background-color: var(--overall-background-dark);
+    color: var(--text-white);
+}
+
+.container-header
+{
+    background-color: var(--overall-background-dark);
+}
+
+.container-menu .dropbtn
+{
+    color: var(--text-white);
+}
+
+.container-menu-1 .dropbtn-1
+{
+    color: var(--text-white);
+}
+
+.container-sign-in .sign-in
+{
+    color: var(--text-black);
+    background-color: var(--background-button-white);
+    box-shadow: var(--button-border-white) -4px 4px 0 0, var(--button-border-white) -4px 4px 1px;
+}
+
+.container-sign-up .sign-up
+{
+    color: var(--text-black);
+    background-color: var(--background-button-white);
+    box-shadow: var(--button-border-white) -4px 4px 0 0, var(--button-border-white) -4px 4px 1px;
+}
+
+.container-sign-in .sign-in:hover
+{
+    color: var(--text-white);
+}
+
+.container-sign-up .sign-up:hover
+{
+    color: var(--text-white);
+}
+
+.container-sign-out .sign-out:hover
+{
+    color: var(--text-white);
+}
+
+.container-menu .dropdown-content a
+{
+    color: var(--text-black);
+}
+
+.container-menu-1 .dropdown-content-1 a
+{
+    color: var(--text-black);
+}
+
+.container-forum .forum
+{
+    color: var(--text-grey-lighter);
+}
+
+.container-settings .settings, .container-contact-us .contact-us
+{
+    color: var(--text-grey-lighter);
+}
+
+.container-contact-us .contact-us
+{
+    color: var(--text-grey-lighter);
+}
+
+.container-header
+{
+    border-bottom: solid 1px var(--hr-border-thiner-dark);
+}
+
+.container-header-1
+{
+    border-bottom: solid 1px var(--hr-border-dark);
+}
+
+.container .container-center
+{
+    color: var(--text-white);
+}
+
+.user-avatar
+{
+    border-color: var(--background-button-white); 
+}
+
+.container-center-left .presentation-small
+{
+    color: var(--text-grey-lighter);
+}
+
+.container-center-left .get-started
+{
+    color: var(--text-black);
+}
+
+.explore-more .explore-more-button
+{
+    color: var(--text-black);
+}
+
+.container-center-left .get-started:hover
+{
+    background-color: var(--background-button-dark);
+    border: solid 1px var(--background-button-white);
+}
+
+.courses-display a
+{
+    background-color: var(--course-background-dark);
+    border: solid 1px var(--course-border-white);
+}
+
+.explore-more .explore-more-button:hover
+{
+    background-color: var(--background-button-dark);
+    border: solid 1px var(--background-button-white);
+}
+
+.categories a
+{
+    border: solid 1px var(--category-border-white);
+}
+
+.development
+{
+    color: var(--text-dark);
+}
+
+.languages
+{
+    color: var(--text-dark);
+}
+
+.design
+{
+    color: var(--text-dark);
+}
+
+.health
+{
+    color: var(--text-dark);
+}
+
+.container .container-center-contact
+{
+    background-color: var(--background-contact-dark);
+    border: solid 2px var(--contact-border-white);
+    color: var(--text-white);
+}
+
+.container-contact-us .contact-us-title
+{
+    color: var(--text-white);
+}
+
+.container-contact-form input
+{
+    color: var(--text-white);
+    background-color: var(--background-contact-dark);
+}
+
+.container-contact-form textarea
+{   
+    color: var(--text-white);
+    background-color: var(--background-contact-dark);
+    border: var(--contact-border-white);
+}
+
+.container-name .name-input
+{
+    border: var(--contact-border-white);
+}
+
+.container-name .name-input
+{
+    border: solid 2px var(--button-border-white);
+}
+
+.container-mail .email-input
+{
+    border: solid 2px var(--button-border-white);
+}
+
+.container-subject .subject-input
+{
+    border: solid 2px var(--button-border-white);
+}
+
+.container-message .message-input
+{
+    border: solid 2px var(--button-border-white);
+}
+
+.container-send .send-input
+{
+    background-color: var(--background-button-white);
+    color: var(--text-grey)
+}
+
+.form-qcm .button-qcm
+{
+    background-color: var(--background-button-white);
+    border: solid 1px var(--button-border-dark);
+}
+
+.form-qcm .button-qcm:hover
+{
+    background-color: var(--background-button-dark);
+    border: solid 1px var(--button-border-dark);
+    color: var(--text-white);
+}
+
+.container-settings .inner-settings
+{
+    color: var(--text-white);
+}
+
+.dark-mode-switch
+{
+    color: var(--text-grey-lighter);
+}
+
+.toggle-switch 
+{
+    background-color: var(--background-button-white);
+}
+
+.toggle-switch:before 
+{
+    background-color: var(--background-button-dark);
+}
+
+.wrapper 
+{
+    background-color: var(--overall-background-dark);
+}
+
+.contenu-cours
+{
+    background-color: var(--course-background-dark);
+    border: solid 2px var(--course-border-white);
+}
+
+.container-button .button-obtenir
+{
+    color: var(--text-black);
+}
+
+.container-button .button-obtenir:hover
+{
+    background-color: var(--background-button-dark);
+    border: solid 1px var(--background-button-white);
+    color: var(--text-white);
+}
+
+.sidebar 
+{
+    border-right: 1px solid var(--hr-border-thiner-dark);
+}
+
+.liste
+{
+    color: var(--text-white); 
+}
+
+.liste:hover 
+{
+    background-color: var(--background-button-dark);
+    color: var(--text-white);
+}
+
+.main-content 
+{
+    color: var(--background-contact-dark); 
+}
+
+.messages 
+{
+    color: var(--text-white);
+    background-color: var(--background-contact-dark);
+    border: solid 2px var(--contact-border-white);
+}
+
+.Msg_envoie 
+{
+    background-color: var(--background-button-dark); 
+    color: var(--text-white);
+}
+
+.Bouton_envoie
+{
+    background-color: var(--background-button-white); 
+    color: var(--text-black);
+}
+
+.container-footer
+{
+    background-color: var(--footer-dark);
+}
+
+.container-footer-1 .footer-socials i
+{
+    color: var(--icon-color-dark);
+    background-color: var(--background-icon-white);
+}
+
+.container-footer-3 .button-input
+{
+    color: var(--text-black);
+    background-color: var(--background-button-white);
+}
